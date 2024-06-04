@@ -1,0 +1,58 @@
+scuttlers:
+  Leader: 1416a839-b9f1-45fb-89bb-b76fd47f3472|LilStJimmy
+  Password: ccnet
+  Locked: true
+  Level: 10
+  Xp: 286
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 1416a839-b9f1-45fb-89bb-b76fd47f3472|LilStJimmy
+  - 1335ad4a-24e3-422c-a2ec-b15679535099|KingStanchez
+  - 71977773-5e52-4293-9657-a0fb45260c16|WilliamFJones
+  - d3139bea-0854-4729-b1ff-22a1368b96f2|Shadowevil015
+  - 45485cc8-b462-4030-bef3-5eec0c47fd2c|Hyclra
+  - afc27820-2e1c-4d78-9f1d-4982948e732a|Perpltxed
+Buffalo:
+  Leader: ee0cfc28-2fae-458e-8dce-28707a22e36b|Lee0723
+  Locked: true
+  Level: 10
+  Xp: 46
+  Ally: ''
+  ExpShareMode: EQUAL
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - ee0cfc28-2fae-458e-8dce-28707a22e36b|Lee0723
+  - 0237b70a-0275-4895-b82f-52c994f4e2c6|AngryMartian
+PikleCo:
+  Leader: 4c5d7435-26da-444b-99f5-feb733d532c6|Wilpikle
+  Locked: true
+  Level: 10
+  Xp: 7
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 4c5d7435-26da-444b-99f5-feb733d532c6|Wilpikle
+  - 138940fa-0727-4853-9ce0-64488aa776a8|Socialistspuds
+  - d3ef4c30-83d2-4b27-9ede-eeb04e588e24|WilliamTheHuman
+  - 0c9cefe8-a7a1-47db-b3e7-7087b5f9e42c|FireBlaster__

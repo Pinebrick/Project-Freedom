@@ -1,0 +1,20 @@
+# Quarters
+
+wand_material: FLINT # Material of the wand item
+quarters:
+  max_quarter_volume: 0 # Maximum block volume of all cuboids in a quarter combined, set to 0 for no limit
+  max_quarters_per_town: 0 # Maximum amount of quarters that can be in a single town, set to 0 for no limit
+  max_cuboid_volume: 0 # Maximum block volume of individual cuboids, set to 0 for no limit
+  max_cuboids_per_quarter: 0 # Maximum amount of cuboids that can be in each quarter, set to 0 for no limit
+  default_colour:
+    enabled: false # Enable to make quarters a certain colour by default, configure colour below
+    red: 63
+    green: 180
+    blue: 255
+particles:
+  enabled: true # Set to false to completely disable particle outlines around cuboids
+  current_selection_particle: SCRAPE # Particle outline of the currently selected area
+  current_cuboids_particle: WAX_OFF # Particle outline of current cuboids added to selection
+  ticks_between_outline: 5 # The number of ticks between when the particle outlines of quarters will appear
+  max_distance_from_cuboid: 48 # The maximum distance a player can be from a cuboid before the outline particles stop being sent to their client
+  allow_constant_outlines: true # If set to true, players will be able to toggle quarter outlines to display constantly

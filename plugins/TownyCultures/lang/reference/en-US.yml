@@ -1,0 +1,56 @@
+name: TownyCultures
+version: 0.04
+language: english
+author: Goosius
+website: 'http://townyadvanced.github.io/'
+description: >
+    Language file for all game messages.  Do not alter this file.
+    If you wish to change any of the entries, make a copy named something else.
+    Alternate language files can be enabled by altering the
+    [language] entry in config.yml
+    e.g. language: FILENAME.yml
+#
+#
+#         You MUST retain spacing in the texts.
+#  If a text begins or ends with a space, it must remain that way.
+#
+#
+#       %s = data to be supplied by the plugin.
+
+# Text colouring
+# --------------
+# Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+# Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+# DarkPurple = &9, LightGreen = &a, LightBlue = &b
+# Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+
+#basics
+cultures_plugin_prefix: '&f[&6TownyCultures&f] '
+msg_err_command_disable: '&cYou don''t have enough permissions for that command.'
+
+#town screen
+status_town_culture: '&2Culture: &a%s'
+
+#culture setting
+msg_town_culture_set: '&bTown culture set to %s'
+msg_culture_removed: '&bTown culture removed.'
+msg_culture_removed_all_towns: '&bTown culture removed from all towns.'
+msg_err_invalid_characters: '&cInvalid characters used, unable to set culture.'
+msg_err_culture_name_too_long: '&cCulture name longer than character limit (%d), unable to set culture.'
+
+
+#chat
+culture_chat_message: '&f[&5CC&f] &f[&6%s&f] %s: &d%s'
+
+#admin
+admin_help_1: 'Reload the config and language file.'
+config_and_lang_file_reloaded_successfully: 'Config and Language file reloaded successfully.'
+config_and_lang_file_could_not_be_loaded: 'Reload unsuccessful. See console for details.'
+msg_all_town_cultures_set: '&bCulture of all towns set to %s'
+msg_specific_town_cultures_set: '&bCulture of town %s set to %s'
+msg_err_town_not_registered: '&cTown %s is not registered.'
+msg_err_no_cultures_found: '&cTownyCultures could not find any Towns with cultures set.'
+msg_cultures_found: 'Cultures Found:'
+msg_err_not_enough_args: '&cNot enough arguments, expected: %s'
+msg_culture_purged: 'The culture %s has been purged.'
+msg_err_no_towns_found_with_this_culture: '&cNo towns were found to have the culture %s.'

@@ -1,0 +1,29 @@
+# Message displayed to the command executor when the plugin configuration is reloaded
+config-reload-message: "Plugin Hider config reloaded."
+
+# Commands that can be used to retrieve the list of plugins on your server
+plugins-commands:
+  - pl
+  - plugins
+  - bukkit:pl
+  - bukkit:plugins
+
+# Message displayed when plugins-commands are executed. Leave it blank to show blocked-command-message
+/plugins: "Plugins (0):"
+
+# Message displayed when the executed command is blocked.
+blocked-command-message: "Unknown command. Type \"/help\" for help."
+
+# Commands listed here are removed from auto-complete, and when executed, they return blocked-command-message.
+# Adding plugins-commands here will have no effect, as they are handled separately.
+# Vulcan commands serve as an example.
+# You only need to add command prefixes. For example, you don't need to add 'vulcan ban' since it's a sub-command
+# of vulcan.
+blocked-commands:
+  - vulcan
+  - vulcan:alerts
+  - vulcan:jday
+  - vulcan:logs
+  - vulcan:punishlogs
+  - vulcan:verbose
+  - vulcan:vulcan

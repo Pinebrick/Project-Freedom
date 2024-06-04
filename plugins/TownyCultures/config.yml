@@ -1,0 +1,20 @@
+  
+version:
+  # This is the current version.  Please do not edit.
+  version: 2.0.1
+  # This is for showing the changelog on updates.  Please do not edit.
+  last_run_version: 2.0.1
+#########################################################
+# +------------------------------------------------------+ #
+# |                 Towny Cultures settings                 | #
+# |                                                         |
+# +------------------------------------------------------+ #
+############################################################
+  
+townycultures:
+  
+  # If this value is true, then TownyCultures is enabled.
+  enabled: 'true'
+  
+  # The maximum number of characters a culture name can be.
+  maximum_culture_name_length: '20'
