@@ -1,0 +1,23 @@
+LastUpdated: 1717517027756
+VotingPlugin:
+  AutoCachePlaceholders: []
+  AutoCacheUpdated: true
+  Version: 'git-Paper-496 (MC: 1.20.4)'
+  ServiceSites:
+  - PlanetMinecraft.com
+  - minecraft-serverlist-com
+  - Best Minecraft Servers
+  - MinecraftServers.org
+  - MCSL
+  - TestVote
+  - TopG.org
+  VoteParty:
+    Total: 2
+    Voted:
+    - f7cf0484-0e35-41b8-8bc9-673fb126752e
+  DisabledReminders: []
+PluginVersions:
+  VotingPlugin: 6.15.1
+Month: JUNE
+PrevWeek: 23
+PrevDay: 4

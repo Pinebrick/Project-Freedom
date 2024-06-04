@@ -1,0 +1,73 @@
+VoteSites:
+  PlanetMinecraft_com:
+    Enabled: true
+    ServiceSite: PlanetMinecraft.com
+    VoteURL: https://www.planetminecraft.com/server/project-freedom/
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Commands:
+      - ecrates give %player% voting 1
+  MinecraftServers_org:
+    Enabled: true
+    ServiceSite: MinecraftServers.org
+    VoteURL: https://minecraftservers.org/server/662008
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Commands:
+      - ecrates give %player% voting 1
+  minecraft-serverlist-com:
+    Enabled: true
+    ServiceSite: minecraft-serverlist-com
+    VoteURL: https://minecraft-serverlist.com/server/1125/vote
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Commands:
+      - ecrates give %player% voting 1
+  MCSL:
+    Enabled: true
+    ServiceSite: minecraft-server-list.com
+    VoteURL: https://minecraft-server-list.com/server/504256/vote/
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Commands:
+      - ecrates give %player% voting 1
+  Best Minecraft Servers:
+    Enabled: true
+    ServiceSite: Best Minecraft Servers
+    VoteURL: https://best-minecraft-servers.co/server-project-freedom.23702/vote
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Commands:
+      - ecrates give %player% voting 1
+  TopG_org:
+    Enabled: true
+    ServiceSite: TopG.org
+    VoteURL: https://topg.org/minecraft-servers/server-664290
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Commands:
+      - ecrates give %player% voting 1
+
+
+# Reward for any site
+# Similar to AnySiteReward
+# This requires the site to be configured in order to get the reward.
+EverySiteReward: {}
